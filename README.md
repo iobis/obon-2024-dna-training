@@ -14,5 +14,5 @@ The example eDNA dataset is available at in the [dataset folder](dataset), and a
 - [The DNADerivedData extension](dna.md)
 - [Download the repository to work with the dataset](dataset.md)
 - [Process the eDNA data to Darwin Core](pieter.Rmd)
-- [Access and work with eDNA data from OBIS](dna_access.md)
+- [Access and work with eDNA data from OBIS](dna_access_pacman.Rmd)
 - [Preview of the eDNA dashboard for eDNA expeditions](https://dashboard.ednaexpeditions.org/)
