@@ -1,0 +1,10 @@
+eDNA Expeditions sequencing info
+
+target gene: COI
+forward primer: GGWACWGGWTGAACWGTWTAYCCYCC
+reverse primer: TANACYTCNGGRTGNCCRAARAAYCA
+forward primer name: mlCOIintF
+reverse primer name: dgHCO2198
+primer reference: doi:10.1186/1742-9994-10-34
+library layout: paired
+sequencing platform: Illumina NovaSeq6000

@@ -1,0 +1,433 @@
+---
+title: Processing of an eDNA dataset to Darwin Core
+output: html_document
+---
+
+# Processing an eDNA dataset to Darwin Core
+
+
+If you are new yo R, make sure to read these info boxes.
+
+First load some dependencies and create the output directory:
+
+```{r, include=F}
+library(dplyr)
+library(readxl)
+library(rmarkdown)
+
+
+# make sure to change the output directory to your own
+output_dir <- "./dwc/saara"
+dir.create(output_dir)
+
+# limit number of rows in notebook output
+options(repr.matrix.max.rows = 10, repr.matrix.max.cols = 20)
+```
+
+
+In R, packages can be loaded using library(). If a package is not installed, you can install it from CRAN using install.packages(). The dplyr package is a commonly used package for data manipulation, <code>readxl</code> is required for reading the Excel file.
+
+## Reading the original dataset
+### List all dataset files
+
+```{r}
+list.files("./dataset", full.names = "TRUE")
+```
+
+<div class="alert alert-warning">
+In a relative file path, <code>..</code> indicates the parent directory.
+</div>
+
+### Read the ASV table
+
+`../dataset/seqtab.txt` contains the ASV table, so it has one row per ASV, and the number of reads in a sample in different columns.
+
+```{r}
+seqtab <- read.table("./dataset/seqtab.txt", sep = "\t", header = TRUE)
+rmarkdown::paged_table(seqtab)
+```
+
+<div class="alert alert-warning">
+<code>read.table()</code> reads a delimited text file to a data frame. <code>sep = "\t"</code> means that the file is tab delimited.
+</div>
+
+### Read the taxonomy file
+
+`../dataset/taxonomy.txt` contains a taxon name for each ASV.
+
+```{r}
+taxonomy <- read.table("./dataset/taxonomy.txt", sep = "\t", header = TRUE)
+paged_table(taxonomy)
+```
+
+These names originate from the reference database and will have to be matched to WoRMS later.
+
+### Read the sample metadata
+
+We also have an Excel file with sample info.
+
+```{r}
+samples <- read_excel("./dataset/samples.xlsx")
+samples
+```
+
+## Joining the tables
+
+At this point we could start quality control on the individual tables, but if we first join and map the tables to Darwin Core occurrence terms, the quality control code will be easier to read.
+
+### Event fields
+
+Let's start with the sample table. This table has sample identifiers, time, coordinates, coordinate uncertainty, locality, and higher geography which can all be mapped to Darwin Core. Keep the `dna` field for later.
+
+```{r}
+event <- samples %>%
+    select(
+        eventID = name,
+        materialSampleID = name,
+        eventDate = event_begin,
+        locality = area_name,
+        decimalLongitude = area_longitude,
+        decimalLatitude = area_latitude,
+        coordinateUncertaintyInMeters = area_uncertainty,
+        higherGeography = parent_area_name,
+        minimumDepthInMeters = depth,
+        maximumDepthInMeters = depth,
+        sampleSizeValue = size,
+        dna,
+        temperature
+    ) %>%
+    mutate(sampleSizeUnit = "ml")
+event
+```
+
+<div class="alert alert-warning">
+The code above uses several <code>dlyr</code> functions. <code>select()</code> selects and optionally renames a set of columns from the dataframe. <code>mutate()</code> creates a new column. <code>%>%</code> is the pipe operator which is used to string functions together.
+</div>
+
+### Occurrence fields
+
+Next is the ASV table. This table is in a wide format with ASVs as rows and samples as columns. We will convert this to a long format, with one row per occurrence and the number of sequence reads as `organismQuantity`. We will use the sample identifier as `eventID` and the combination of sample identifier and ASV number as the `occurrenceID`.
+
+<div class="alert alert-warning">
+To do from a wide to a long table, use the <code>gather()</code> function from the <code>tidyr</code> package. <code>paste0()</code> is used to combine character strings.
+</div>
+
+```{r}
+library(tidyr)
+
+occurrence <- seqtab %>%
+    gather(eventID, organismQuantity, 2:3) %>%
+    filter(organismQuantity > 0) %>%
+    mutate(
+        occurrenceID = paste0(eventID, "_", asv),
+        organismQuantityType = "sequence reads"
+    )
+paged_table(occurrence)
+```
+
+We can now add the taxonomic names to our occurrence table.
+
+```{r}
+taxonomy <- taxonomy %>%
+    select(asv, verbatimIdentification = taxonomy)
+```
+
+```{r}
+occurrence <- occurrence %>%
+    left_join(taxonomy, by = "asv")
+paged_table(occurrence)
+```
+
+<div class="alert alert-warning">
+<code>left_join()</code> joins two dataframes by matching columns. The <code>by</code> argument specifies the columns to match on.
+</div>
+
+### Joining event and occurrence fields
+
+```{r}
+occurrence <- event %>%
+    left_join(occurrence, by = "eventID")
+paged_table(occurrence)
+```
+
+## Adding metadata
+
+Populate `samplingProtocol` with a link the the eDNA Expeditions protocol.
+
+```{r}
+occurrence$samplingProtocol <- "https://github.com/BeBOP-OBON/UNESCO_protocol_collection"
+```
+
+## Quality control
+
+### Taxon matching
+
+Let's first match the taxa with WoRMS. This can be done using the `obistools` package. Before matching with WoRMS we will remove underscores from the scientific names.
+
+```{r}
+taxon_names <- stringr::str_replace(occurrence$verbatimIdentification, "_", " ")
+```
+
+Now match the names, this can take a few minutes.
+
+```{r}
+matched <- obistools::match_taxa(taxon_names, ask = FALSE) %>%
+    select(scientificName, scientificNameID)
+
+paged_table(matched)
+```
+
+```{r}
+occurrence <- bind_cols(occurrence, matched)
+paged_table(occurrence)
+```
+
+```{r}
+non_matches <- occurrence %>%
+    filter(is.na(scientificNameID)) %>%
+    group_by(verbatimIdentification) %>%
+    summarize(n = n()) %>%
+    arrange(desc(n))
+
+write.table(non_matches, file = file.path(output_dir, "nonmatches.txt"), sep = "\t", row.names = FALSE, na = "", quote = FALSE)
+
+paged_table(non_matches)
+```
+
+Normally we have to resolve these names one by one, but for this exercise we will just fix the most common errors. For example, records annotated as eukaryotes can be populated with scientificName `Incertae sedis` and scientificNameID `urn:lsid:marinespecies.org:taxname:12`.
+
+```{r}
+occurrence <- occurrence %>%
+    mutate(
+        scientificName = case_when(verbatimIdentification %in% c("Eukaryota", "undef_Eukaryota", "") ~ "Incertae sedis", .default = scientificName),
+        scientificNameID = case_when(verbatimIdentification %in% c("Eukaryota", "undef_Eukaryota", "") ~ "urn:lsid:marinespecies.org:taxname:12", .default = scientificNameID)
+    )
+```
+
+
+# TO ADD: add taxonomic levels, and then matches to higher tax levels if species not found?
+
+
+```{r}
+occurrence %>%
+    filter(is.na(scientificNameID)) %>%
+    group_by(verbatimIdentification) %>%
+    summarize(n = n()) %>%
+    arrange(desc(n))
+```
+
+```{r}
+paged_table(occurrence)
+```
+
+### Location
+
+Now let's check the coordinates by plotting the distinct coordinate pairs on a map.
+
+```{r}
+library(leaflet)
+
+
+stations <- occurrence %>%
+    distinct(locality, decimalLongitude, decimalLatitude)
+
+stations
+
+leaflet() %>%
+    addTiles() %>%
+    addMarkers(lng = stations$decimalLongitude, lat = stations$decimalLatitude, popup = stations$locality)
+```
+
+There's clearly something wrong with the coordinates. Longitude looks fine, let's try flipping latitude.
+
+```{r}
+occurrence <- occurrence %>%
+    mutate(decimalLatitude = -decimalLatitude)
+
+stations <- occurrence %>%
+    distinct(locality, decimalLongitude, decimalLatitude)
+stations
+
+leaflet() %>%
+    addTiles() %>%
+    addMarkers(lng = stations$decimalLongitude, lat = stations$decimalLatitude, popup = stations$locality)
+```
+
+Now fix the occurrence table.
+
+### Time
+
+Now check the event dates.
+
+```{r}
+obistools::check_eventdate(occurrence)
+```
+
+It looks like `eventDate` is in the wrong format. Use the `lubridate` package to parse the current date format and change it.
+
+```{r}
+library(lubridate)
+
+occurrence <- occurrence %>%
+    mutate(eventDate = format_ISO8601(parse_date_time(eventDate, "%d/%m/%Y"), precision = "ymd", usetz = FALSE))
+
+unique(occurrence$eventDate)
+```
+
+```{r}
+head(occurrence)
+```
+
+### Missing fields
+
+Let's check if any required fields are missing.
+
+```{r}
+obistools::check_fields(occurrence)
+```
+
+```{r}
+occurrence <- occurrence %>%
+    mutate(
+        occurrenceStatus = "present",
+        basisOfRecord = "MaterialSample"
+    )
+```
+
+## MeasurementOrFact
+
+We have several measurements that can be added to the MeasurementOrFact extension: sequence reads, sample volume, and DNA extract concentration.
+
+```{r}
+mof_reads <- occurrence %>%
+    select(occurrenceID, measurementValue = organismQuantity) %>%
+    mutate(
+        measurementType = "sequence reads"
+    )
+
+mof_samplesize <- occurrence %>%
+    select(occurrenceID, measurementValue = sampleSizeValue, measurementUnit = sampleSizeUnit) %>%
+    mutate(
+        measurementType = "sample size",
+        measurementTypeID = "http://vocab.nerc.ac.uk/collection/P01/current/VOLWBSMP/",
+        measurementUnit = "ml",
+        measurementUnitID = "http://vocab.nerc.ac.uk/collection/P06/current/VVML/"
+    )
+
+mof_dna <- occurrence %>%
+    select(occurrenceID, measurementValue = dna) %>%
+    mutate(
+        measurementType = "DNA concentration",
+        measurementTypeID = "http://vocab.nerc.ac.uk/collection/P01/current/A260DNAX/",
+        measurementUnit = "ng/μl",
+        measurementUnitID = "http://vocab.nerc.ac.uk/collection/P06/current/UNUL/"
+    )
+
+mof_temperature <- occurrence %>%
+    select(occurrenceID, measurementValue = temperature) %>%
+    mutate(
+        measurementType = "seawater temperature",
+        measurementTypeID = "http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/",
+        measurementUnit = "degrees Celsius",
+        measurementUnitID = "http://vocab.nerc.ac.uk/collection/P06/current/UPAA/"
+    )
+
+mof <- bind_rows(mof_reads, mof_samplesize, mof_dna)
+paged_table(mof)
+```
+
+## DNADerivedData
+### Reading sequence data
+
+```{r}
+library(Biostrings)
+
+fasta_file <- readDNAStringSet("./dataset/sequences.fasta")
+fasta <- data.frame(asv = names(fasta_file), DNA_sequence = paste(fasta_file))
+paged_table(fasta)
+```
+
+```{r}
+dna <- occurrence %>%
+    select(occurrenceID, asv, concentration = dna) %>%
+    left_join(fasta, by = "asv")
+
+paged_table(dna)
+```
+
+### Adding metadata
+
+We have a file with some sequencing metadata, print the file contents and add the corresponding fields to the DNADerivedData table.
+
+```{r}
+cat(paste0(readLines("./dataset/metadata.txt"), collapse = "\n"))
+```
+
+```{r}
+dna <- dna %>%
+    mutate(
+        concentrationUnit = "ng/μl",
+        lib_layout = "paired",
+        target_gene = "COI",
+        pcr_primers = "FWD:GGWACWGGWTGAACWGTWTAYCCYCC;REV:TANACYTCNGGRTGNCCRAARAAYCA",
+        seq_meth = "Illumina NovaSeq6000",
+        ref_db = "https://github.com/iobis/edna-reference-databases",
+        pcr_primer_forward = "GGWACWGGWTGAACWGTWTAYCCYCC",
+        pcr_primer_reverse = "TANACYTCNGGRTGNCCRAARAAYCA",
+        pcr_primer_name_forward = "mlCOIintF",
+        pcr_primer_name_reverse = "dgHCO2198",
+        pcr_primer_reference = "doi:10.1186/1742-9994-10-34"
+    ) %>%
+    select(-asv)
+
+paged_table(dna)
+```
+
+## Output
+
+Write text files and compress.
+
+```{r}
+occurrence <- occurrence %>%
+    select(-asv, -dna, -temperature)
+
+write.table(occurrence, file = file.path(output_dir, "occurrence.txt"), sep = "\t", row.names = FALSE, na = "", quote = FALSE)
+write.table(mof, file = file.path(output_dir, "measurementorfact.txt"), sep = "\t", row.names = FALSE, na = "", quote = FALSE)
+write.table(dna, file = file.path(output_dir, "dnaderiveddata.txt"), sep = "\t", row.names = FALSE, na = "", quote = FALSE)
+```
+
+```{r}
+#remotes::install_github("pieterprovoost/r-dwca-writer")
+library(dwcawriter)
+
+archive <- list(
+    eml = '<eml:eml packageId="https://obis.org/dummydataset/v1.0" scope="system" system="http://gbif.org" xml:lang="en" xmlns:dc="http://purl.org/dc/terms/" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.2/eml.xsd">
+        <dataset>
+        <title xml:lang="en">Dummy Dataset</title>
+        </dataset>
+    </eml:eml>',
+    core = list(
+        name = "occurrence",
+        type = "https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml",
+        index = which(names(occurrence) == "occurrenceID"),
+        data = occurrence
+    ),
+    extensions = list(
+        list(
+            name = "measurementorfact",
+            type = "https://rs.gbif.org/extension/obis/extended_measurement_or_fact_2023-08-28.xml",
+            index = which(names(mof) == "occurrenceID"),
+            data = mof
+        ),
+        list(
+            name = "dnaderiveddata",
+            type = "https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2022-02-23.xml",
+            index = which(names(dna) == "occurrenceID"),
+            data = dna
+        )
+    )
+)
+
+write_dwca(archive, file.path(output_dir, "archive.zip"))
+```
+
