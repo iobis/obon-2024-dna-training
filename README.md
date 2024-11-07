@@ -23,3 +23,16 @@ An example [R markdown solution](solutions/pieter.Rmd) to the data cleaning exer
 - [Download the repository to work with the dataset](dataset.md)
 - [Process the eDNA data to Darwin Core](pieter.Rmd)
 - [Access and work with eDNA data from OBIS](dna_access_pacman.Rmd)
+
+
+# Preparing for training
+
+To prepare for training (in case no internet available), clone this repository to your computer. Make sure that the following libraries are installed:
+
+```
+
+if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
+pacman::p_load(robis, dplyr, ggplot2, tidyr, knitr, ggtree, mapview, sf, RColorBrewer, rmarkdown, readxl, rmarkdown, lubridate, purrr, leaflet, Biostrings, dwcawriter) 
+remotes::install_github("pieterprovoost/r-dwca-writer")
+
+```

@@ -1,0 +1,501 @@
+scientificName	scientificNameID	aphiaid	kingdom	phylum	class	order	family	genus	scientificname	rank	id
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.1
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.2
+Eurotatoria	urn:lsid:marinespecies.org:taxname:368537	368537	Animalia	Rotifera	Eurotatoria				Eurotatoria	Class	asv.3
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.4
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.5
+Farranula gibbula	urn:lsid:marinespecies.org:taxname:346477	346477	Animalia	Arthropoda	Copepoda	Cyclopoida	Corycaeidae	Farranula	Farranula gibbula	Species	asv.6
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.7
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.8
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.9
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.10
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.11
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.12
+											asv.13
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.14
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.15
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.16
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.17
+											asv.18
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.19
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.20
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.21
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.22
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.23
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.24
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.25
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.26
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.27
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.28
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.29
+Farranula gibbula	urn:lsid:marinespecies.org:taxname:346477	346477	Animalia	Arthropoda	Copepoda	Cyclopoida	Corycaeidae	Farranula	Farranula gibbula	Species	asv.30
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.31
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.32
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.33
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.34
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.35
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.36
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.37
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.38
+											asv.39
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.40
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.41
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.42
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.43
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.44
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.45
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.46
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.47
+											asv.48
+Phanerophthalmus lentigines	urn:lsid:marinespecies.org:taxname:1313730	1313730	Animalia	Mollusca	Gastropoda	Cephalaspidea	Haminoeidae	Phanerophthalmus	Phanerophthalmus lentigines	Species	asv.49
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.50
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.51
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.52
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.53
+Cerithium rostratum	urn:lsid:marinespecies.org:taxname:216688	216688	Animalia	Mollusca	Gastropoda	Caenogastropoda incertae sedis	Cerithiidae	Cerithium	Cerithium rostratum	Species	asv.54
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.55
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.56
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.57
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.58
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.59
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.60
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.61
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.62
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.63
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.64
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.65
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.66
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.67
+Calanoida	urn:lsid:marinespecies.org:taxname:1100	1100	Animalia	Arthropoda	Copepoda	Calanoida			Calanoida	Order	asv.68
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.69
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.70
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.71
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.72
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.73
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.74
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.75
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.76
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.77
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.78
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.79
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.80
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.81
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.82
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.83
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.84
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.85
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.86
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.87
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.88
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.89
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.90
+Pseudo-nitzschia pseudodelicatissima	urn:lsid:marinespecies.org:taxname:156548	156548	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia pseudodelicatissima	Species	asv.91
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.92
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.93
+Phaeocystis globosa	urn:lsid:marinespecies.org:taxname:160538	160538	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis globosa	Species	asv.94
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.95
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.96
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.97
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.98
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.99
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.100
+Cerithium nesioticum	urn:lsid:marinespecies.org:taxname:139061	139061	Animalia	Mollusca	Gastropoda	Caenogastropoda incertae sedis	Cerithiidae	Cerithium	Cerithium nesioticum	Species	asv.101
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.102
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.103
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.104
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.105
+Pseudo-nitzschia pseudodelicatissima	urn:lsid:marinespecies.org:taxname:156548	156548	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia pseudodelicatissima	Species	asv.106
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.107
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.108
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.109
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.110
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.111
+Xiphinema brevicolle	urn:lsid:marinespecies.org:taxname:1609888	1609888	Animalia	Nematoda	Enoplea	Dorylaimida	Longidoridae	Xiphinema	Xiphinema brevicolle	Species	asv.112
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.113
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.114
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.115
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.116
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.117
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.118
+Paracalanus denudatus	urn:lsid:marinespecies.org:taxname:104682	104682	Animalia	Arthropoda	Copepoda	Calanoida	Paracalanidae	Paracalanus	Paracalanus denudatus	Species	asv.119
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.120
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.121
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.122
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.123
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.124
+											asv.125
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.126
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.127
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.128
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.129
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.130
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.131
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.132
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.133
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.134
+Insecta	urn:lsid:marinespecies.org:taxname:1307	1307	Animalia	Arthropoda	Hexapoda				Insecta	Subclass	asv.135
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.136
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.137
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.138
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.139
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.140
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.141
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.142
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.143
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.144
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.145
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.146
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.147
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.148
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.149
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.150
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.151
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.152
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.153
+Pseudo-nitzschia pseudodelicatissima	urn:lsid:marinespecies.org:taxname:156548	156548	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia pseudodelicatissima	Species	asv.154
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.155
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.156
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.157
+Clausocalanus furcatus	urn:lsid:marinespecies.org:taxname:104503	104503	Animalia	Arthropoda	Copepoda	Calanoida	Clausocalanidae	Clausocalanus	Clausocalanus furcatus	Species	asv.158
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.159
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.160
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.161
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.162
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.163
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.164
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.165
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.166
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.167
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.168
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.169
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.170
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.171
+Pterosagitta draco	urn:lsid:marinespecies.org:taxname:105430	105430	Animalia	Chaetognatha	Sagittoidea	Aphragmophora	Pterosagittidae	Pterosagitta	Pterosagitta draco	Species	asv.172
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.173
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.174
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.175
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.176
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.177
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.178
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.179
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.180
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.181
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.182
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.183
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.184
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.185
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.186
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.187
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.188
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.189
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.190
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.191
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.192
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.193
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.194
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.195
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.196
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.197
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.198
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.199
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.200
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.201
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.202
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.203
+											asv.204
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.205
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.206
+Acrocalanus gracilis	urn:lsid:marinespecies.org:taxname:220838	220838	Animalia	Arthropoda	Copepoda	Calanoida	Paracalanidae	Acrocalanus	Acrocalanus gracilis	Species	asv.207
+											asv.208
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.209
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.210
+Thuridilla livida	urn:lsid:marinespecies.org:taxname:494499	494499	Animalia	Mollusca	Gastropoda		Plakobranchidae	Thuridilla	Thuridilla livida	Species	asv.211
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.212
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.213
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.214
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.215
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.216
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.217
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.218
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.219
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.220
+Lophocochlias minutissimus	urn:lsid:marinespecies.org:taxname:730993	730993	Animalia	Mollusca	Gastropoda	Littorinimorpha	Tornidae	Lophocochlias	Lophocochlias minutissimus	Species	asv.221
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.222
+Florideophyceae	urn:lsid:marinespecies.org:taxname:368670	368670	Plantae	Rhodophyta	Florideophyceae				Florideophyceae	Class	asv.223
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.224
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.225
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.226
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.227
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.228
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.229
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.230
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.231
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.232
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.233
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.234
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.235
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.236
+Epigonichthys maldivensis	urn:lsid:marinespecies.org:taxname:212958	212958	Animalia	Chordata	Leptocardii		Branchiostomatidae	Epigonichthys	Epigonichthys maldivensis	Species	asv.237
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.238
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.239
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.240
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.241
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.242
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.243
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.244
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.245
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.246
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.247
+Homo sapiens	urn:lsid:marinespecies.org:taxname:1455977	1455977	Animalia	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	Species	asv.248
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.249
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.250
+											asv.251
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.252
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.253
+Poteriospumella lacustris	urn:lsid:marinespecies.org:taxname:624265	624265	Chromista	Ochrophyta	Chrysophyceae	Chromulinales	Dinobryaceae	Poteriospumella	Poteriospumella lacustris	Species	asv.254
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.255
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.256
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.257
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.258
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.259
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.260
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.261
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.262
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.263
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.264
+Bivalvia	urn:lsid:marinespecies.org:taxname:105	105	Animalia	Mollusca	Bivalvia				Bivalvia	Class	asv.265
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.266
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.267
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.268
+Calanoida	urn:lsid:marinespecies.org:taxname:1100	1100	Animalia	Arthropoda	Copepoda	Calanoida			Calanoida	Order	asv.269
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.270
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.271
+Creseis virgula	urn:lsid:marinespecies.org:taxname:139035	139035	Animalia	Mollusca	Gastropoda	Pteropoda	Creseidae	Creseis	Creseis virgula	Species	asv.272
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.273
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.274
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.275
+Epigonichthys maldivensis	urn:lsid:marinespecies.org:taxname:212958	212958	Animalia	Chordata	Leptocardii		Branchiostomatidae	Epigonichthys	Epigonichthys maldivensis	Species	asv.276
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.277
+Florideophyceae	urn:lsid:marinespecies.org:taxname:368670	368670	Plantae	Rhodophyta	Florideophyceae				Florideophyceae	Class	asv.278
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.279
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.280
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.281
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.282
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.283
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.284
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.285
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.286
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.287
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.288
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.289
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.290
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.291
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.292
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.293
+Stylocheilus striatus	urn:lsid:marinespecies.org:taxname:224662	224662	Animalia	Mollusca	Gastropoda	Aplysiida	Aplysiidae	Stylocheilus	Stylocheilus striatus	Species	asv.294
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.295
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.296
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.297
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.298
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.299
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.300
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.301
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.302
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.303
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.304
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.305
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.306
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.307
+Gonyaulacales	urn:lsid:marinespecies.org:taxname:109391	109391	Chromista	Myzozoa	Dinophyceae	Gonyaulacales			Gonyaulacales	Order	asv.308
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.309
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.310
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.311
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.312
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.313
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.314
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.315
+Phanerophthalmus paulayi	urn:lsid:marinespecies.org:taxname:1313720	1313720	Animalia	Mollusca	Gastropoda	Cephalaspidea	Haminoeidae	Phanerophthalmus	Phanerophthalmus paulayi	Species	asv.316
+											asv.317
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.318
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.319
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.320
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.321
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.322
+Cochliopodium	urn:lsid:marinespecies.org:taxname:391852	391852	Protozoa	Amoebozoa	Discosea	Himatismenida	Himatismenida incertae sedis	Cochliopodium	Cochliopodium	Genus	asv.323
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.324
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.325
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.326
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.327
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.328
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.329
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.330
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.331
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.332
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.333
+											asv.334
+Pseudo-nitzschia	urn:lsid:marinespecies.org:taxname:149151	149151	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia	Genus	asv.335
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.336
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.337
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.338
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.339
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.340
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.341
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.342
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.343
+Pseudo-nitzschia	urn:lsid:marinespecies.org:taxname:149151	149151	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia	Genus	asv.344
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.345
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.346
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.347
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.348
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.349
+Farranula gibbula	urn:lsid:marinespecies.org:taxname:346477	346477	Animalia	Arthropoda	Copepoda	Cyclopoida	Corycaeidae	Farranula	Farranula gibbula	Species	asv.350
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.351
+Cnidaria	urn:lsid:marinespecies.org:taxname:1267	1267	Animalia	Cnidaria					Cnidaria	Phylum	asv.352
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.353
+Calanoida	urn:lsid:marinespecies.org:taxname:1100	1100	Animalia	Arthropoda	Copepoda	Calanoida			Calanoida	Order	asv.354
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.355
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.356
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.357
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.358
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.359
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.360
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.361
+Undinula vulgaris	urn:lsid:marinespecies.org:taxname:104473	104473	Animalia	Arthropoda	Copepoda	Calanoida	Calanidae	Undinula	Undinula vulgaris	Species	asv.362
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.363
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.364
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.365
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.366
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.367
+Mantoniella squamata	urn:lsid:marinespecies.org:taxname:134563	134563	Plantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Mantoniella	Mantoniella squamata	Species	asv.368
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.369
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.370
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.371
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.372
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.373
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.374
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.375
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.376
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.377
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.378
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.379
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.380
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.381
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.382
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.383
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.384
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.385
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.386
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.387
+Phaeocystis	urn:lsid:marinespecies.org:taxname:115088	115088	Chromista	Haptophyta	Coccolithophyceae	Phaeocystales	Phaeocystaceae	Phaeocystis	Phaeocystis	Genus	asv.388
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.389
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.390
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.391
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.392
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.393
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.394
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.395
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.396
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.397
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.398
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.399
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.400
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.401
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.402
+Oncaea media	urn:lsid:marinespecies.org:taxname:128938	128938	Animalia	Arthropoda	Copepoda	Cyclopoida	Oncaeidae	Oncaea	Oncaea media	Species	asv.403
+Naviculales	urn:lsid:marinespecies.org:taxname:149015	149015	Chromista	Heterokontophyta	Bacillariophyceae	Naviculales			Naviculales	Order	asv.404
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.405
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.406
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.407
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.408
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.409
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.410
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.411
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.412
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.413
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.414
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.415
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.416
+Hymeniacidon chloris	urn:lsid:marinespecies.org:taxname:165886	165886	Animalia	Porifera	Demospongiae	Suberitida	Halichondriidae	Hymeniacidon	Hymeniacidon chloris	Species	asv.417
+Paracalanus indicus	urn:lsid:marinespecies.org:taxname:104683	104683	Animalia	Arthropoda	Copepoda	Calanoida	Paracalanidae	Paracalanus	Paracalanus indicus	Species	asv.418
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.419
+Calanoida	urn:lsid:marinespecies.org:taxname:1100	1100	Animalia	Arthropoda	Copepoda	Calanoida			Calanoida	Order	asv.420
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.421
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.422
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.423
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.424
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.425
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.426
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.427
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.428
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.429
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.430
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.431
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.432
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.433
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.434
+Pleurobranchus varians	urn:lsid:marinespecies.org:taxname:849352	849352	Animalia	Mollusca	Gastropoda	Pleurobranchida	Pleurobranchidae	Pleurobranchus	Pleurobranchus varians	Species	asv.435
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.436
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.437
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.438
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.439
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.440
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.441
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.442
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.443
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.444
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.445
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.446
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.447
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.448
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.449
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.450
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.451
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.452
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.453
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.454
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.455
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.456
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.457
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.458
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.459
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.460
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.461
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.462
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.463
+Cosmocalanus darwinii	urn:lsid:marinespecies.org:taxname:361259	361259	Animalia	Arthropoda	Copepoda	Calanoida	Calanidae	Cosmocalanus	Cosmocalanus darwinii	Species	asv.464
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.465
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.466
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.467
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.468
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.469
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.470
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.471
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.472
+Cylindrotheca closterium	urn:lsid:marinespecies.org:taxname:149004	149004	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Cylindrotheca	Cylindrotheca closterium	Species	asv.473
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.474
+Arthropoda	urn:lsid:marinespecies.org:taxname:1065	1065	Animalia	Arthropoda					Arthropoda	Phylum	asv.475
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.476
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.477
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.478
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.479
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.480
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.481
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.482
+Pateobatis fai	urn:lsid:marinespecies.org:taxname:1043416	1043416	Animalia	Chordata	Elasmobranchii	Myliobatiformes	Dasyatidae	Pateobatis	Pateobatis fai	Species	asv.483
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.484
+Gonyaulacales	urn:lsid:marinespecies.org:taxname:109391	109391	Chromista	Myzozoa	Dinophyceae	Gonyaulacales			Gonyaulacales	Order	asv.485
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.486
+Terpios gelatinosus	urn:lsid:marinespecies.org:taxname:1041930	1041930	Animalia	Porifera	Demospongiae	Suberitida	Suberitidae	Terpios	Terpios gelatinosus	Species	asv.487
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.488
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.489
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.490
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.491
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.492
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.493
+Pseudo-nitzschia	urn:lsid:marinespecies.org:taxname:149151	149151	Chromista	Heterokontophyta	Bacillariophyceae	Bacillariales	Bacillariaceae	Pseudo-nitzschia	Pseudo-nitzschia	Genus	asv.494
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.495
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.496
+Incertae sedis	urn:lsid:marinespecies.org:taxname:12	12	Biota incertae sedis						Biota incertae sedis	Kingdom	asv.497
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.498
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.499
+Metazoa	urn:lsid:marinespecies.org:taxname:1486573	1486573	Animalia						Metazoa	Subkingdom	asv.500

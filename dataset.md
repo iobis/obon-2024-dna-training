@@ -31,6 +31,8 @@ GBIF is developing a new [tool](https://mdt.gbif-uat.org/) to help users process
 
 If your node is linked to both an OBIS and GBIF IPT, this is very easy to do. 
 
+You can use a subset of the trial data in the [dataset folder](./dataset/dataset_subset_gbif_tool/)
+
 
 ## Checking your dataset using EMODnet BioCheck
 

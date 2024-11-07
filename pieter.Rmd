@@ -36,7 +36,10 @@ In R, packages can be loaded using library(). If a package is not installed, you
 ## Reading the original dataset
 ### List all dataset files
 
+Set your working directory to the training folder.
+
 ```{r}
+#setwd(dir = "../obon-2024-dna-training/")
 list.files("./dataset", full.names = "TRUE")
 ```
 

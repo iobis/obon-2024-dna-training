@@ -42,7 +42,7 @@ if (!"robis" %in% rownames(installed.packages())) {
 We will also need the following packages:
 
 
-```{r}
+```{r setup}
 library(robis)
 library(dplyr)
 library(ggplot2)
