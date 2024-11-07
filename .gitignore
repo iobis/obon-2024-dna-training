@@ -38,4 +38,4 @@ vignettes/*.pdf
 solutions*
 !solutions/pieter.Rmd
 !solutions/pieter.html
-
+!solutions/matched_results.txt

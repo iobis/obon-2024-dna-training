@@ -14,7 +14,13 @@ First load some dependencies and create the output directory:
 library(dplyr)
 library(readxl)
 library(rmarkdown)
-
+library(lubridate)
+library(tidyr)
+library(purrr)
+library(leaflet)
+library(Biostrings)
+#remotes::install_github("pieterprovoost/r-dwca-writer")
+library(dwcawriter)
 
 # make sure to change the output directory to your own
 output_dir <- "./dwc/saara"
@@ -113,7 +119,7 @@ To do from a wide to a long table, use the <code>gather()</code> function from t
 </div>
 
 ```{r}
-library(tidyr)
+#library(tidyr)
 
 occurrence <- seqtab %>%
     gather(eventID, organismQuantity, 2:3) %>%
@@ -174,6 +180,9 @@ Now match the names, this can take a few minutes.
 matched <- obistools::match_taxa(taxon_names, ask = FALSE) %>%
     select(scientificName, scientificNameID)
 
+#The solution can be found in this file:
+#matched <- read.table("./solutions/matched_results.txt", sep = "\t", header = T)
+
 paged_table(matched)
 ```
 
@@ -205,15 +214,27 @@ occurrence <- occurrence %>%
 ```
 
 
-# TO ADD: add taxonomic levels, and then matches to higher tax levels if species not found?
+# OPTIONAL: Add taxonomic levels
 
+OBIS will automatically link higher taxonomic levels based on the worms IDS. However, with the following workflow you can add them also.
 
 ```{r}
-occurrence %>%
-    filter(is.na(scientificNameID)) %>%
-    group_by(verbatimIdentification) %>%
-    summarize(n = n()) %>%
-    arrange(desc(n))
+
+#library(dplyr)
+#library(purrr)
+
+dummy_data <- occurrence %>% 
+  select(scientificName, scientificNameID) %>% 
+  mutate(aphiaid = as.numeric(stringr::str_extract(scientificNameID, "\\d+$")))
+
+taxonomy_worrms <- map(unique(dummy_data$aphiaid[!is.na(dummy_data$aphiaid)]), worrms::wm_record) %>% 
+  bind_rows() %>% 
+  select(AphiaID, kingdom, phylum, class, order, family, genus, scientificname, rank)
+
+dummy_data <- dummy_data %>% 
+  left_join(taxonomy_worrms, by = c("aphiaid" = "AphiaID"))
+
+occurrence <- bind_cols(occurrence, dummy_data %>% select(kingdom, phylum, class, order, family, genus, rank))
 ```
 
 ```{r}
@@ -225,8 +246,7 @@ paged_table(occurrence)
 Now let's check the coordinates by plotting the distinct coordinate pairs on a map.
 
 ```{r}
-library(leaflet)
-
+#library(leaflet)
 
 stations <- occurrence %>%
     distinct(locality, decimalLongitude, decimalLatitude)
@@ -266,7 +286,7 @@ obistools::check_eventdate(occurrence)
 It looks like `eventDate` is in the wrong format. Use the `lubridate` package to parse the current date format and change it.
 
 ```{r}
-library(lubridate)
+#library(lubridate)
 
 occurrence <- occurrence %>%
     mutate(eventDate = format_ISO8601(parse_date_time(eventDate, "%d/%m/%Y"), precision = "ymd", usetz = FALSE))
@@ -340,7 +360,7 @@ paged_table(mof)
 ### Reading sequence data
 
 ```{r}
-library(Biostrings)
+#library(Biostrings)
 
 fasta_file <- readDNAStringSet("./dataset/sequences.fasta")
 fasta <- data.frame(asv = names(fasta_file), DNA_sequence = paste(fasta_file))
@@ -398,7 +418,7 @@ write.table(dna, file = file.path(output_dir, "dnaderiveddata.txt"), sep = "\t",
 
 ```{r}
 #remotes::install_github("pieterprovoost/r-dwca-writer")
-library(dwcawriter)
+#library(dwcawriter)
 
 archive <- list(
     eml = '<eml:eml packageId="https://obis.org/dummydataset/v1.0" scope="system" system="http://gbif.org" xml:lang="en" xmlns:dc="http://purl.org/dc/terms/" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.2/eml.xsd">

@@ -27,7 +27,7 @@ We will run through several steps to process a typical processed DNA dataset to 
 
 ## To compare: use the gbif tool
 
-GBIF is developing a new tool to help users process their eDNA datasets to DwC, with a complete [user guide](https://docs.gbif-uat.org/mdt-user-guide/en/). GBIF and OBIS use the same standards with some small differences, therefore this tool can be used also to format data for OBIS, or to even publish to GBIF and OBIS. 
+GBIF is developing a new [tool](https://mdt.gbif-uat.org/) to help users process their eDNA datasets to DwC, with a complete [user guide](https://docs.gbif-uat.org/mdt-user-guide/en/). GBIF and OBIS use the same standards with some small differences, therefore this tool can be used also to format data for OBIS, or to even publish to GBIF and OBIS. 
 
 If your node is linked to both an OBIS and GBIF IPT, this is very easy to do. 
 

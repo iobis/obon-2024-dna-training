@@ -6,7 +6,15 @@ This training is meant for eDNA data providers interested in the formatting and 
 
 ## Example dataset
 
-The example eDNA dataset is available at in the [dataset folder](dataset), and an example [R markdown solution](solutions/pieter.Rmd) to the data cleaning exercise is also available. To start with your own work, you can clone the repository to your computer, and copy the solution "pieter.Rmd", to a file with your own name.
+The example eDNA dataset is available at in the [dataset folder](dataset). We are going to process this dataset to a darwin core archive, including all of the information available in this folder. As is typically the case for amplicon data, the data is provided in multiple tables:
+
+1. An otu table
+2. A taxonomy table
+3. A sample information table
+4. A fasta file for the sequences
+
+
+An example [R markdown solution](solutions/pieter.Rmd) to the data cleaning exercise is also available. To start with your own work, you can clone the repository to your computer, and copy the solution "pieter.Rmd", to a file with your own name.
 
 
 ## Contents
@@ -15,4 +23,3 @@ The example eDNA dataset is available at in the [dataset folder](dataset), and a
 - [Download the repository to work with the dataset](dataset.md)
 - [Process the eDNA data to Darwin Core](pieter.Rmd)
 - [Access and work with eDNA data from OBIS](dna_access_pacman.Rmd)
-- [Preview of the eDNA dashboard for eDNA expeditions](https://dashboard.ednaexpeditions.org/)
