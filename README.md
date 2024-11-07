@@ -14,7 +14,7 @@ The example eDNA dataset is available at in the [dataset folder](dataset). We ar
 4. A fasta file for the sequences
 
 
-An example [R markdown solution](solutions/pieter.Rmd) to the data cleaning exercise is also available. To start with your own work, you can clone the repository to your computer, and copy the solution "pieter.Rmd", to a file with your own name.
+An example [R markdown solution](pieter.Rmd) to the data cleaning exercise is also available. To start with your own work, you can clone the repository to your computer, and copy the solution "pieter.Rmd", to a file with your own name.
 
 
 ## Contents

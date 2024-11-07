@@ -39,13 +39,3 @@ You can use a subset of the trial data in the [dataset folder](./dataset/dataset
 Go to <https://rshiny.lifewatch.be/BioCheck/> and enter the URL of your Darwin Core Archive on GitHub, or upload your file directly.
 
 
-# Using the mapper
-
-DNADerivedData extension records can also be included in data downloads from the [mapper](https://mapper.obis.org/). To do so, tick the DNADerivedData checkbox in the download confirmation form.
-
-![mapper](images/mapper.png)
-
-The resulting archive will include CSV files for the occurrences as well as for the selected extensions. The occurrence and extension tables can be joined using the `id` column.
-
-![mapper](images/download.png)
-
