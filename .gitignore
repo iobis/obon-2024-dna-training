@@ -35,7 +35,7 @@ vignettes/*.pdf
 .DS_Store
 
 # solutions
-solutions*
-!solutions/pieter.Rmd
-!solutions/pieter.html
-!solutions/matched_results.txt
+#solutions*
+#!solutions/pieter.Rmd
+#!solutions/pieter.html
+#!solutions/matched_results.txt

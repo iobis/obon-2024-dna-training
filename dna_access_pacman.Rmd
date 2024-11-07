@@ -1,8 +1,10 @@
 ---
 title: "DNADerivedData extension data access"
-date: "`r Sys.Date()`"
 author: "Pieter Provoost, Saara Suominen"
-output: html_notebook
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
 ---
 
 #Using R markdown
@@ -49,6 +51,7 @@ library(ggtree)
 library(mapview)
 library(sf)
 library(RColorBrewer)
+library(rmarkdown)
 ```
 
 
@@ -65,9 +68,13 @@ Before we fetch any occurrence data let's first find out which datasets in OBIS 
 ```{r message=FALSE, warning=FALSE}
 dna_datasets <- dataset(hasextensions = "DNADerivedData")
 
-dna_datasets %>%
-  select(url, title, records) %>%
-  kable()
+
+paged_table(dna_datasets %>%
+  select(url, title, records, node_name, extent, id))
+#write.table(dna_df, "dna_datasets_obis.txt", row.names = F, sep="\t")
+
+#Alternatively the list is provided in the following:
+dna_datasets <- read.csv("./solutions/dna_datasets_obis.txt", header=T, sep="\t")
 ```
 
 ```{r, message=FALSE, warning=FALSE}
@@ -93,7 +100,9 @@ pacmanID<-dna_datasets %>% filter(grepl("PacMAN", title))%>%
 select(id)
 
 occ <- occurrence(datasetid = pacmanID, extensions = "DNADerivedData", wrims = T)
-occ
+
+#or in case no access to internet:
+#occ <- read.csv2("./solutions/pacman_wrims_occurrences.txt", header=T, sep="\t")
 ```
 
 Let's take a look at the taxonomic composition of our dataset:
@@ -101,7 +110,7 @@ Let's take a look at the taxonomic composition of our dataset:
 ```{r, message=FALSE, warning=FALSE}
 occ %>%
   group_by(phylum) %>%
-  summarize(species = length(unique(speciesid)), records = n()) %>%
+  summarize(species = length(unique(scientificNameID)), records = n()) %>%
   arrange(desc(species))
 ```
 
@@ -111,7 +120,9 @@ The DNADerivedData records are currently nested within the occurrences we fetche
 
 ```{r, message=FALSE, warning=FALSE}
 dna <- unnest_extension(occ, "DNADerivedData", fields = c("id", "phylum", "class", "order", "family", "genus", "species", "date_year"))
-dna %>% select(where(~sum(!is.na(.)) > 0))
+
+#Or in case no access to internet
+#dna <- read.csv2("./solutions/pacman_wrims_dna.txt", header=T, sep="\t")
 ```
 
 Let's take a look at some properties of the sequence records.
@@ -119,8 +130,7 @@ Let's take a look at some properties of the sequence records.
 ```{r, message=FALSE, warning=FALSE}
 dna %>%
   group_by(target_gene, pcr_primer_name_forward, pcr_primer_name_reverse) %>%
-  summarize(records = n()) %>%
-  kable()
+  summarize(records = n()) 
 ```
 
 ## Working with DNADerivedData records
@@ -184,4 +194,16 @@ The resulting archive will include CSV files for the occurrences as well as for 
 
 ![mapper](images/download.png)
 
+# NEW Prototype: sequence search in OBIS
 
+Having sequences in OBIS will allow global comparisons. A prototype [sequence search tool](https://sequence.obis.org/) has been developed by Pieter Provoost, that you can now try.
+
+Note this is a fresh prototype!
+
+
+AGCCGCGGTAATTCCAGCTCCAATAGCGTATATTAAAGTTGTTGCAGTTAAAAAGCTCGTAGTTGGATTTCGGAGCGGGCCAGTTGGTCGGCCGCAAGGTCTGTTACTGACTGGTCTGCTCTTCTTCGCAAAGACTGCGTGTGCTCTTGACTGAGTGTGCGTAGGATTTACGACGTTTACTTTGAAAAAATTAGAGTGTTCAAAGCAGGC
+
+ACTTTGAAAAAATTAGAGTGCTCAAAGCAGGCTAAAATGCCTGAATATTCGTGCATGGAATAATAGAATAGGATGTCGATCCTATTTTGTTGGTTTTCGGGACTCGACATAATGATAAATAGGGACAGTCGGGGGCATTTGTATTCAAACGACAGAGGTGAAATTCTTGGACCGTTTGAAGACAAACTACTGCGAAAGCATTTG
+
+
+![mapper](images/obis_sequence_search.png)
