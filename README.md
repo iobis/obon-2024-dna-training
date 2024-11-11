@@ -32,7 +32,7 @@ To prepare for training (in case no internet available), clone this repository t
 ```
 
 if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
-pacman::p_load(robis, dplyr, ggplot2, tidyr, knitr, ggtree, mapview, sf, RColorBrewer, rmarkdown, readxl, rmarkdown, lubridate, purrr, leaflet, Biostrings, dwcawriter) 
+pacman::p_load(robis, dplyr, ggplot2, tidyr, knitr, ggtree, mapview, sf, RColorBrewer, rmarkdown, readxl, rmarkdown, lubridate, purrr, leaflet, Biostrings, dwcawriter, devtools, obistools, worrms) 
 remotes::install_github("pieterprovoost/r-dwca-writer")
 
 ```
